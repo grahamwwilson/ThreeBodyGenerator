@@ -66,12 +66,10 @@ int main(){
 
 // This new implementation contains the normalization constants.
 
-// Without the normalization constant the pdf integral will be proportional to 
+// Without the normalization constant the pdf integral would be proportional to 
 // the total width which will vary for the OS and SS models. 
 // Since we only care that the particle has decayed somehow according to the 3 models, 
 // rather than about what the modeled width is, we need the normalization constant to assure 
 // that the number of decays remains constant.
-
-// So for now this code would do a reasonable job of reweighting the shapes.
    
 }
